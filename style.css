@@ -13,12 +13,12 @@ html{
 font-size: 0.625rem;
 }
 
-h2{
-    font-size: 2rem;
+h1{
+    font-size: 2.2rem;
     font-weight: 800;
 }
 
-h2:hover{
+h1:hover{
     cursor: pointer;
     color: var(--bg-color);
     transition: all .3s ease;
@@ -57,24 +57,24 @@ body{
     transition: all .3s ease;
 }
 
-.card-content h5:nth-child(1){
-    font-size: 1.6rem;
+.card-content p:nth-child(1){
+    font-size: 1.4rem;
     line-height: 2.4rem;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--Black);
     padding: .4rem 1rem;
     background-color: var(--bg-color);
     border-radius: 5px;
 }
 
-.card-content h5:nth-child(2){
+.card-content p:nth-child(2){
     font-size: 1.4rem;
-    font-weight: 800;
+    font-weight: 500;
     color: var(--Black);
 }
  p{
     font-size: 1.6rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
     font-weight: 500;
     color: var(--grey);
 }
@@ -98,7 +98,7 @@ body{
     gap: 1rem;
 }
 
-.card-author h5{
+.card-author p{
     font-size: 1.6rem;
     font-weight: 800;
     color: var(--Black);
